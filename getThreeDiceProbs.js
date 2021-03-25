@@ -3,7 +3,7 @@ const input_1 = [8, 6]
 // const input_2 
 // const input_3
 
-class ResultsObj {
+class DiceResult {
   constructor(diceArr) {
     this.diceArr = diceArr
     this.rows = [0,0]
@@ -11,9 +11,9 @@ class ResultsObj {
   }
   calcResults(max, i, arr) {
     // lower scope
-    // console.log("I am max + 1: ", max+1)
-    // console.log("I am i: ", i)
-    // console.log("I am arr: ", arr)
+    console.log("I am max + 1: ", max+1)
+    console.log("I am i: ", i)
+    console.log("I am arr: ", arr)
   }
   getAllResults() {
     // H.O.O.
@@ -21,6 +21,6 @@ class ResultsObj {
     // console.log("I am input: ", this.diceArr)
   }
 }
-const matrix2d8 = new ResultsObj(input_1)
+const matrix2d8 = new DiceResult(input_1)
 
 matrix2d8.getAllResults()
