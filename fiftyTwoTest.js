@@ -5,17 +5,12 @@
 // initialize array with exact spaces, instead of literal?
 const result = new Array(52)
 
-// object literal to hold key:value pairs used to construct deck
 // from least, to most
-// generatorObj = {
-//   // array of objects
-//   suits: [
-//     {
-//       name: 'hearts',
-      
-//     }
-//   ]
-// }
+const colors = ['red', 'black'] // replace with hex or rgba values
+const suits = ['diamonds', 'hearts', 'clubs', 'spades']
+// const fontSymbols = [0, 1, 2, 3] // replace with font-awesome
+const faces = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'] // generate numeral strings "twos" dynamically as well?
+// logic:
 
 
 
